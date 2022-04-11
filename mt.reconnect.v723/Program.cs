@@ -53,7 +53,7 @@ static IHostBuilder CreateHostBuilder(string[] args)
                     {
                         ServiceUri = new Uri("##CHANGE_ME_URI##"),
                         TokenProvider = provider,
-                        TransportType = TransportType.Amqp
+                        TransportType = TransportType.AmqpWebSockets
                     };
 
                     cfg.Host(settings);

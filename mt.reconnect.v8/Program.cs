@@ -49,7 +49,7 @@ static IHostBuilder CreateHostBuilder(string[] args)
                     {
                         ServiceUri = new Uri("CHANGE_ME_URI##"),
                         ConnectionString = "##CHANGE_ME_SHARED_ACCESS_KEY##",
-                        TransportType = ServiceBusTransportType.AmqpTcp
+                        TransportType = ServiceBusTransportType.AmqpWebSockets
                     };
 
                     cfg.Host(settings);
