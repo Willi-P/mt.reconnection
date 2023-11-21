@@ -1,0 +1,146 @@
+D:/xxx/mt.reconnect.v8/bin/Debug/net6.0/mt.reconnect.v8.exe 
+03:17:54 dbug: Microsoft.Extensions.Hosting.Internal.Host[1]
+      Hosting starting                                      
+03:17:55 dbug: MassTransit.Transports.BusDepot[0]
+      Starting bus instances: IBus               
+03:17:55 dbug: MassTransit[0]               
+      Starting bus: sb://no-host-configured/
+03:17:55 info: Microsoft.Hosting.Lifetime[0]         
+      Application started. Press Ctrl+C to shut down.
+03:17:55 info: Microsoft.Hosting.Lifetime[0]                                                
+      Hosting environment: Production                                                       
+03:17:55 info: Microsoft.Hosting.Lifetime[0]                                                
+      Content root path: D:\*\mt.reconnect.v8\bin\Debug\net6.0
+03:17:55 dbug: Microsoft.Extensions.Hosting.Internal.Host[2]
+      Hosting started                                       
+03:17:55 dbug: MassTransit[0]
+      Endpoint Ready: sb://no-host-configured/xxx_mtreconnectv8_bus_zo6oyyr48oyymosrbdp6i8f8fk?autodelete=300
+03:17:56 dbug: MassTransit[0]
+      Topic: mt.reconnect.contracts/SubmitOrder ()
+03:17:56 dbug: MassTransit[0]
+      Queue: order-service (dead letter)
+03:17:56 dbug: MassTransit[0]
+      Updating subscription: order-service (mt.reconnect.contracts/SubmitOrder -> http://xxx.servicebus.windows.net/order-service)
+03:17:56 dbug: MassTransit[0]
+      Subscription order-service (mt.reconnect.contracts/SubmitOrder -> http://xxx.servicebus.windows.net/order-service)
+03:17:57 dbug: MassTransit[0]
+      Endpoint Ready: sb://no-host-configured/order-service
+03:17:57 info: MassTransit[0]
+      Bus started: sb://no-host-configured/
+Submit Order Received: 983b0000-9a3c-0005-d731-08dbea8cce80
+03:17:58 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-51f2-08dbea8ccea3 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0273809)
+Submit Order Received: 983b0000-9a3c-0005-f4f1-08dbea8cd052
+03:17:59 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:00 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-f8fd-08dbea8cd052 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:00.9999607)
+Submit Order Received: 983b0000-9a3c-0005-098c-08dbea8cd05a
+03:18:01 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-0bc2-08dbea8cd05a mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0045749)
+Submit Order Received: 983b0000-9a3c-0005-6e59-08dbea8cd063
+03:18:02 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-75c7-08dbea8cd063 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0059293)
+Submit Order Received: 983b0000-9a3c-0005-5c2b-08dbea8cd068
+03:18:03 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-5e68-08dbea8cd068 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0020953)
+Submit Order Received: 983b0000-9a3c-0005-b0f2-08dbea8cd19c
+03:18:04 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:04 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-b330-08dbea8cd19c mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0175237)
+Submit Order Received: 983b0000-9a3c-0005-c7f9-08dbea8cd1a3
+03:18:05 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-c9af-08dbea8cd1a3 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0152362)
+Submit Order Received: 983b0000-9a3c-0005-764f-08dbea8cd1ab
+03:18:07 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-7927-08dbea8cd1ab mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0065331)
+03:18:09 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:14 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:19 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:24 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:28 fail: MassTransit[0]
+      Message Lock Lost: sb://no-host-configured/order-service 983b00009a3c0005792708dbea8cd1ab 182
+03:18:29 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:34 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:39 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:40 dbug: MassTransit[0]
+      ServiceBusException on Receiver sb://xxx.servicebus.windows.net/order-service during Receive ActiveDispatchCount(0) ErrorRequiresRecycle(True)
+      Azure.Messaging.ServiceBus.ServiceBusException: No such host is known. ErrorCode: HostNotFound (ServiceCommunicationProblem). For troubleshooting information, see https://aka.ms/azsdk/net/servicebus/exceptions/trouble
+shoot.
+       ---> System.Net.Sockets.SocketException (11001): No such host is known.
+         at Microsoft.Azure.Amqp.ExceptionDispatcher.Throw(Exception exception)
+         at Microsoft.Azure.Amqp.AsyncResult.End[TAsyncResult](IAsyncResult result)
+         at Microsoft.Azure.Amqp.Transport.AmqpTransportInitiator.ConnectAsyncResult.End(IAsyncResult result)
+         at Microsoft.Azure.Amqp.Transport.AmqpTransportInitiator.<>c.<ConnectAsync>b__17_1(IAsyncResult r)
+         at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+      --- End of stack trace from previous location ---
+         at Azure.Messaging.ServiceBus.Amqp.AmqpConnectionScope.CreateAndOpenConnectionAsync(Version amqpVersion, Uri serviceEndpoint, Uri connectionEndpoint, ServiceBusTransportType transportType, IWebProxy proxy, String s
+copeIdentifier, TimeSpan timeout)
+         at Microsoft.Azure.Amqp.FaultTolerantAmqpObject`1.OnCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpConnectionScope.OpenReceiverLinkAsync(String identifier, String entityPath, TimeSpan timeout, UInt32 prefetchCount, ServiceBusReceiveMode receiveMode, String sessionId, Boolea
+n isSessionReceiver, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.OpenReceiverLinkAsync(TimeSpan timeout, UInt32 prefetchCount, ServiceBusReceiveMode receiveMode, String identifier, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.FaultTolerantAmqpObject`1.OnCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.ReceiveMessagesAsyncInternal(Int32 maxMessages, Nullable`1 maxWaitTime, TimeSpan timeout, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.ReceiveMessagesAsyncInternal(Int32 maxMessages, Nullable`1 maxWaitTime, TimeSpan timeout, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.<>c.<<ReceiveMessagesAsync>b__45_0>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Azure.Messaging.ServiceBus.ServiceBusRetryPolicy.RunOperation[T1,TResult](Func`4 operation, T1 t1, TransportConnectionScope scope, CancellationToken cancellationToken, Boolean logTimeoutRetriesAsVerbose)        
+         at Azure.Messaging.ServiceBus.ServiceBusRetryPolicy.RunOperation[T1,TResult](Func`4 operation, T1 t1, TransportConnectionScope scope, CancellationToken cancellationToken, Boolean logTimeoutRetriesAsVerbose)        
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.ReceiveMessagesAsync(Int32 maxMessages, Nullable`1 maxWaitTime, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.ServiceBusReceiver.ReceiveMessagesAsync(Int32 maxMessages, Nullable`1 maxWaitTime, Boolean isProcessor, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.ReceiverManager.ReceiveAndProcessMessagesAsync(CancellationToken cancellationToken)
+03:18:44 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:49 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:54 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:18:59 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+      
+      --- Reconnected here ---
+      
+03:19:04 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:19:09 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:19:14 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:19:19 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:19:24 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:19:29 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:19:34 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:19:39 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:19:44 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:19:49 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:19:54 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:19:59 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:20:04 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:20:09 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+
+

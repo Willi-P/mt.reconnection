@@ -1,0 +1,298 @@
+D:/xxx/mt.reconnect.v8/bin/Debug/net6.0/mt.reconnect.v8.exe 
+03:23:27 dbug: Microsoft.Extensions.Hosting.Internal.Host[1]
+      Hosting starting                                      
+03:23:28 dbug: MassTransit.Transports.BusDepot[0]
+      Starting bus instances: IBus               
+03:23:28 dbug: MassTransit[0]               
+      Starting bus: sb://no-host-configured/
+03:23:28 info: Microsoft.Hosting.Lifetime[0]         
+      Application started. Press Ctrl+C to shut down.
+03:23:28 info: Microsoft.Hosting.Lifetime[0]                                                
+      Hosting environment: Production                                                       
+03:23:28 info: Microsoft.Hosting.Lifetime[0]                                                
+      Content root path: D:\xxx\mt.reconnect.v8\bin\Debug\net6.0
+03:23:28 dbug: Microsoft.Extensions.Hosting.Internal.Host[2]
+      Hosting started                                       
+03:23:28 dbug: MassTransit[0]
+      Endpoint Ready: sb://no-host-configured/xxx_mtreconnectv8_bus_muzyyyr48oyyk9w9bdp6i8mp84?autodelete=300
+03:23:29 dbug: MassTransit[0]
+      Topic: mt.reconnect.contracts/SubmitOrder ()
+03:23:29 dbug: MassTransit[0]
+      Queue: order-service (dead letter)
+03:23:29 dbug: MassTransit[0]
+      Updating subscription: order-service (mt.reconnect.contracts/SubmitOrder -> http://xxx.servicebus.windows.net/order-service)
+03:23:29 dbug: MassTransit[0]
+      Subscription order-service (mt.reconnect.contracts/SubmitOrder -> http://xxx.servicebus.windows.net/order-service)
+03:23:29 dbug: MassTransit[0]
+      Endpoint Ready: sb://no-host-configured/order-service
+03:23:29 info: MassTransit[0]
+      Bus started: sb://no-host-configured/
+Submit Order Received: 983b0000-9a3c-0005-764f-08dbea8cd1ab
+Submit Order Received: 983b0000-9a3c-0005-ad01-08dbea8cd1b2
+03:23:31 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-b707-08dbea8cd1b2 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0238599)
+03:23:31 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-7927-08dbea8cd1ab mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0239118)
+Submit Order Received: 983b0000-9a3c-0005-a4cb-08dbea8cd1c2
+Submit Order Received: 983b0000-9a3c-0005-7a4d-08dbea8cd1bb
+03:23:32 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:23:32 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-a698-08dbea8cd1c2 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0081002)
+03:23:32 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-7c4a-08dbea8cd1bb mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0079015)
+Submit Order Received: 983b0000-9a3c-0005-88e1-08dbea8cd1ca
+Submit Order Received: 983b0000-9a3c-0005-9522-08dbea8cd1d1
+03:23:33 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-9807-08dbea8cd1d1 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0131963)
+03:23:33 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-8adc-08dbea8cd1ca mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0171296)
+Submit Order Received: 983b0000-9a3c-0005-3cb2-08dbea8cd1d9
+Submit Order Received: 983b0000-9a3c-0005-c79b-08dbea8cd1e1
+03:23:34 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-cb2d-08dbea8cd1e1 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0137935)
+03:23:34 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-3e2f-08dbea8cd1d9 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0151393)
+Submit Order Received: 983b0000-9a3c-0005-ff07-08dbea8cd1ef
+Submit Order Received: 983b0000-9a3c-0005-5078-08dbea8cd1e8
+03:23:35 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-5282-08dbea8cd1e8 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0046265)
+03:23:35 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-0166-08dbea8cd1f0 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0061201)
+Submit Order Received: 983b0000-9a3c-0005-63e2-08dbea8cd1f9
+Submit Order Received: 983b0000-9a3c-0005-bf80-08dbea8cd200
+03:23:37 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-c27b-08dbea8cd200 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0146178)
+03:23:37 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-6608-08dbea8cd1f9 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0146447)
+Submit Order Received: 983b0000-9a3c-0005-c6a6-08dbea8cd207
+Submit Order Received: 983b0000-9a3c-0005-6620-08dbea8cd20f
+03:23:37 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:23:38 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-c8d7-08dbea8cd207 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0119255)
+03:23:38 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-67af-08dbea8cd20f mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0102545)
+Submit Order Received: 983b0000-9a3c-0005-5973-08dbea8cd216
+Submit Order Received: 983b0000-9a3c-0005-4364-08dbea8cd21f
+03:23:39 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-74d8-08dbea8cd21f mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0201253)
+03:23:39 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-95c6-08dbea8cd217 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0203533)
+Submit Order Received: 983b0000-9a3c-0005-0629-08dbea8cd229
+Submit Order Received: 983b0000-9a3c-0005-f604-08dbea8cd22d
+03:23:40 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-0865-08dbea8cd229 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0164994)
+03:23:40 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-f7fb-08dbea8cd22d mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0176390)
+Submit Order Received: 983b0000-9a3c-0005-c90a-08dbea8cd234
+Submit Order Received: 983b0000-9a3c-0005-ed05-08dbea8cd23b
+03:23:41 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-efc9-08dbea8cd23b mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0141322)
+03:23:41 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-cba7-08dbea8cd234 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0142305)
+Submit Order Received: 983b0000-9a3c-0005-61a7-08dbea8cd245
+Submit Order Received: 983b0000-9a3c-0005-955a-08dbea8cd24c
+03:23:42 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:23:42 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-99b4-08dbea8cd24c mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0045392)
+03:23:42 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-63fe-08dbea8cd245 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0077194)
+Submit Order Received: 983b0000-9a3c-0005-fc10-08dbea8cd255
+Submit Order Received: 983b0000-9a3c-0005-c2e1-08dbea8cd25a
+03:23:44 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-c49d-08dbea8cd25a mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0102038)
+03:23:44 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-fe0f-08dbea8cd255 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0102115)
+Submit Order Received: 983b0000-9a3c-0005-7b6c-08dbea8cd26b
+Submit Order Received: 983b0000-9a3c-0005-3057-08dbea8cd264
+03:23:45 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-7d44-08dbea8cd26b mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0055204)
+03:23:45 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-32a3-08dbea8cd264 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0055725)
+Submit Order Received: 983b0000-9a3c-0005-126c-08dbea8cd275
+Submit Order Received: 983b0000-9a3c-0005-f3c2-08dbea8cd279
+03:23:46 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-14fb-08dbea8cd275 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0100011)
+03:23:46 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-f5e6-08dbea8cd279 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0099380)
+Submit Order Received: 983b0000-9a3c-0005-0ea4-08dbea8cd281
+Submit Order Received: 983b0000-9a3c-0005-5128-08dbea8cd288
+03:23:47 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:23:47 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-565a-08dbea8cd288 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0157010)
+03:23:47 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-1181-08dbea8cd281 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0185546)
+Submit Order Received: 983b0000-9a3c-0005-13d8-08dbea8cd297
+Submit Order Received: 983b0000-9a3c-0005-fcc2-08dbea8cd298
+03:23:48 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-15bb-08dbea8cd297 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0123221)
+03:23:48 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-0212-08dbea8cd299 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0124121)
+Submit Order Received: 983b0000-9a3c-0005-3981-08dbea8cd2a2
+Submit Order Received: 983b0000-9a3c-0005-f505-08dbea8cd2a6
+03:23:49 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-3b8d-08dbea8cd2a2 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0068837)
+03:23:49 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-f7f7-08dbea8cd2a6 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0048814)
+Submit Order Received: 983b0000-9a3c-0005-4892-08dbea8cd2b0
+Submit Order Received: 983b0000-9a3c-0005-7746-08dbea8cd2b7
+03:23:50 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-8669-08dbea8cd2b7 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0171949)
+03:23:50 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-4c40-08dbea8cd2b0 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0200725)
+Submit Order Received: 983b0000-9a3c-0005-fde6-08dbea8cd2bd
+Submit Order Received: 983b0000-9a3c-0005-60b3-08dbea8cd2c5
+03:23:51 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-004a-08dbea8cd2be mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0156416)
+03:23:51 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-6279-08dbea8cd2c5 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0134497)
+Submit Order Received: 983b0000-9a3c-0005-ea01-08dbea8cd2ce
+Submit Order Received: 983b0000-9a3c-0005-dd76-08dbea8cd2d4
+03:23:52 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:23:53 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-ec18-08dbea8cd2ce mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0108033)
+03:23:53 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-def7-08dbea8cd2d4 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0108033)
+Submit Order Received: 983b0000-9a3c-0005-8667-08dbea8cd2dd
+Submit Order Received: 983b0000-9a3c-0005-a615-08dbea8cd2e4
+03:23:54 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-a83e-08dbea8cd2e4 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0276900)
+03:23:54 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-8881-08dbea8cd2dd mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0896153)
+03:23:57 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:24:02 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:24:07 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:24:12 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:24:17 fail: MassTransit[0]
+      Message Lock Lost: sb://no-host-configured/order-service 983b00009a3c0005888108dbea8cd2dd 222
+03:24:17 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:24:19 fail: MassTransit[0]
+      Message Lock Lost: sb://no-host-configured/order-service 983b00009a3c0005a83e08dbea8cd2e4 223
+03:24:22 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:24:27 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+03:24:31 dbug: MassTransit[0]
+      ServiceBusException on Receiver sb://xxx.servicebus.windows.net/order-service during Receive ActiveDispatchCount(0) ErrorRequiresRecycle(True)
+      Azure.Messaging.ServiceBus.ServiceBusException: No such host is known. ErrorCode: HostNotFound (ServiceCommunicationProblem). For troubleshooting information, see https://aka.ms/azsdk/net/servicebus/exceptions/trouble
+shoot.
+       ---> System.Net.Sockets.SocketException (11001): No such host is known.
+         at Microsoft.Azure.Amqp.ExceptionDispatcher.Throw(Exception exception)
+         at Microsoft.Azure.Amqp.AsyncResult.End[TAsyncResult](IAsyncResult result)
+         at Microsoft.Azure.Amqp.Transport.AmqpTransportInitiator.ConnectAsyncResult.End(IAsyncResult result)
+         at Microsoft.Azure.Amqp.Transport.AmqpTransportInitiator.<>c.<ConnectAsync>b__17_1(IAsyncResult r)
+         at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+      --- End of stack trace from previous location ---
+         at Azure.Messaging.ServiceBus.Amqp.AmqpConnectionScope.CreateAndOpenConnectionAsync(Version amqpVersion, Uri serviceEndpoint, Uri connectionEndpoint, ServiceBusTransportType transportType, IWebProxy proxy, String s
+copeIdentifier, TimeSpan timeout)
+         at Microsoft.Azure.Amqp.FaultTolerantAmqpObject`1.OnCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpConnectionScope.OpenReceiverLinkAsync(String identifier, String entityPath, TimeSpan timeout, UInt32 prefetchCount, ServiceBusReceiveMode receiveMode, String sessionId, Boolea
+n isSessionReceiver, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.OpenReceiverLinkAsync(TimeSpan timeout, UInt32 prefetchCount, ServiceBusReceiveMode receiveMode, String identifier, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.FaultTolerantAmqpObject`1.OnCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.ReceiveMessagesAsyncInternal(Int32 maxMessages, Nullable`1 maxWaitTime, TimeSpan timeout, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.ReceiveMessagesAsyncInternal(Int32 maxMessages, Nullable`1 maxWaitTime, TimeSpan timeout, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.ReceiveMessagesAsyncInternal(Int32 maxMessages, Nullable`1 maxWaitTime, TimeSpan timeout, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.<>c.<<ReceiveMessagesAsync>b__45_0>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Azure.Messaging.ServiceBus.ServiceBusRetryPolicy.RunOperation[T1,TResult](Func`4 operation, T1 t1, TransportConnectionScope scope, CancellationToken cancellationToken, Boolean logTimeoutRetriesAsVerbose)        
+         at Azure.Messaging.ServiceBus.ServiceBusRetryPolicy.RunOperation[T1,TResult](Func`4 operation, T1 t1, TransportConnectionScope scope, CancellationToken cancellationToken, Boolean logTimeoutRetriesAsVerbose)        
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.ReceiveMessagesAsync(Int32 maxMessages, Nullable`1 maxWaitTime, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.ServiceBusReceiver.ReceiveMessagesAsync(Int32 maxMessages, Nullable`1 maxWaitTime, Boolean isProcessor, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.ReceiverManager.ReceiveAndProcessMessagesAsync(CancellationToken cancellationToken)
+03:24:31 dbug: MassTransit[0]
+      ServiceBusException on Receiver sb://xxx.servicebus.windows.net/order-service during Receive ActiveDispatchCount(0) ErrorRequiresRecycle(True)
+      Azure.Messaging.ServiceBus.ServiceBusException: No such host is known. ErrorCode: HostNotFound (ServiceCommunicationProblem). For troubleshooting information, see https://aka.ms/azsdk/net/servicebus/exceptions/trouble
+shoot.
+       ---> System.Net.Sockets.SocketException (11001): No such host is known.
+         at Microsoft.Azure.Amqp.ExceptionDispatcher.Throw(Exception exception)
+         at Microsoft.Azure.Amqp.AsyncResult.End[TAsyncResult](IAsyncResult result)
+         at Microsoft.Azure.Amqp.Transport.AmqpTransportInitiator.ConnectAsyncResult.End(IAsyncResult result)
+         at Microsoft.Azure.Amqp.Transport.AmqpTransportInitiator.<>c.<ConnectAsync>b__17_1(IAsyncResult r)
+         at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+      --- End of stack trace from previous location ---
+         at Azure.Messaging.ServiceBus.Amqp.AmqpConnectionScope.CreateAndOpenConnectionAsync(Version amqpVersion, Uri serviceEndpoint, Uri connectionEndpoint, ServiceBusTransportType transportType, IWebProxy proxy, String s
+copeIdentifier, TimeSpan timeout)
+         at Microsoft.Azure.Amqp.FaultTolerantAmqpObject`1.OnCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpConnectionScope.OpenReceiverLinkAsync(String identifier, String entityPath, TimeSpan timeout, UInt32 prefetchCount, ServiceBusReceiveMode receiveMode, String sessionId, Boolea
+n isSessionReceiver, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.OpenReceiverLinkAsync(TimeSpan timeout, UInt32 prefetchCount, ServiceBusReceiveMode receiveMode, String identifier, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.FaultTolerantAmqpObject`1.OnCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.ReceiveMessagesAsyncInternal(Int32 maxMessages, Nullable`1 maxWaitTime, TimeSpan timeout, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.ReceiveMessagesAsyncInternal(Int32 maxMessages, Nullable`1 maxWaitTime, TimeSpan timeout, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.ReceiveMessagesAsyncInternal(Int32 maxMessages, Nullable`1 maxWaitTime, TimeSpan timeout, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.<>c.<<ReceiveMessagesAsync>b__45_0>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Azure.Messaging.ServiceBus.ServiceBusRetryPolicy.RunOperation[T1,TResult](Func`4 operation, T1 t1, TransportConnectionScope scope, CancellationToken cancellationToken, Boolean logTimeoutRetriesAsVerbose)        
+         at Azure.Messaging.ServiceBus.ServiceBusRetryPolicy.RunOperation[T1,TResult](Func`4 operation, T1 t1, TransportConnectionScope scope, CancellationToken cancellationToken, Boolean logTimeoutRetriesAsVerbose)        
+         at Azure.Messaging.ServiceBus.Amqp.AmqpReceiver.ReceiveMessagesAsync(Int32 maxMessages, Nullable`1 maxWaitTime, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.ServiceBusReceiver.ReceiveMessagesAsync(Int32 maxMessages, Nullable`1 maxWaitTime, Boolean isProcessor, CancellationToken cancellationToken)
+         at Azure.Messaging.ServiceBus.ReceiverManager.ReceiveAndProcessMessagesAsync(CancellationToken cancellationToken)
+03:24:31 dbug: MassTransit[0]
+      Consumer Stopping: sb://no-host-configured/order-service (Consume Loop Exited)
+03:24:31 dbug: MassTransit[0]
+      Endpoint Completed: sb://no-host-configured/order-service
+03:24:31 dbug: MassTransit.Messages[0]
+      Consumer Completed: sb://no-host-configured/order-service: 42 received, 2 concurrent
+03:24:32 warn: Program[0]
+      sb://no-host-configured/order-service Degraded
+03:24:37 warn: Program[0]
+      sb://no-host-configured/order-service Degraded
+03:24:42 warn: Program[0]
+      sb://no-host-configured/order-service Degraded
+03:24:47 warn: Program[0]
+      sb://no-host-configured/order-service Degraded
+03:24:48 dbug: MassTransit[0]
+      Topic: mt.reconnect.contracts/SubmitOrder ()
+03:24:48 dbug: MassTransit[0]
+      Queue: order-service (dead letter)
+03:24:49 dbug: MassTransit[0]
+      Updating subscription: order-service (mt.reconnect.contracts/SubmitOrder -> http://xxx.servicebus.windows.net/order-service)
+03:24:49 dbug: MassTransit[0]
+      Subscription order-service (mt.reconnect.contracts/SubmitOrder -> http://xxx.servicebus.windows.net/order-service)
+03:24:49 dbug: MassTransit[0]
+      Endpoint Ready: sb://no-host-configured/order-service
+Submit Order Received: 983b0000-9a3c-0005-a54f-08dbea8cd2eb
+Submit Order Received: 983b0000-9a3c-0005-4082-08dbea8cd2f5
+03:24:50 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-42b5-08dbea8cd2f5 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0398845)
+03:24:50 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-a72e-08dbea8cd2eb mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0906841)
+Submit Order Received: 983b0000-9a3c-0005-b0e0-08dbea8cd2fb
+Submit Order Received: 983b0000-9a3c-0005-3f00-08dbea8cd303
+03:24:52 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-b265-08dbea8cd2fb mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0046820)
+Submit Order Received: 983b0000-9a3c-0005-65a0-08dbea8cd30a
+03:24:52 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-40e6-08dbea8cd303 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.1561005)
+03:24:52 warn: Program[0]
+      sb://no-host-configured/order-service Healthy
+Submit Order Received: 983b0000-9a3c-0005-c5d8-08dbea8cd313
+03:24:53 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-6795-08dbea8cd30a mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0233860)
+Submit Order Received: 983b0000-9a3c-0005-4b09-08dbea8cd31a
+03:24:53 dbug: MassTransit.Messages[0]
+      RECEIVE sb://no-host-configured/order-service 983b0000-9a3c-0005-c85c-08dbea8cd313 mt.reconnect.contracts.SubmitOrder MassTransit.MessageHandler<mt.reconnect.contracts.SubmitOrder>(00:00:01.0179573)
+
+

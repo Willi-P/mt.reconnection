@@ -47,9 +47,7 @@ static IHostBuilder CreateHostBuilder(string[] args)
                 {
                     var settings = new HostSettings
                     {
-                        ServiceUri = new Uri("CHANGE_ME_URI##"),
-                        ConnectionString = "##CHANGE_ME_SHARED_ACCESS_KEY##",
-                        TransportType = ServiceBusTransportType.AmqpWebSockets
+                        ConnectionString = "changeMe"
                     };
 
                     cfg.Host(settings);
@@ -59,7 +57,9 @@ static IHostBuilder CreateHostBuilder(string[] args)
                         e.Handler<SubmitOrder>(async context =>
                         {
                             await Console.Out.WriteLineAsync($"Submit Order Received: {context.Message.OrderId}");
+                            await Task.Delay(TimeSpan.FromSeconds(1));
                         });
+                        e.PrefetchCount = 1;
                     });
                 });
             });
